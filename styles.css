@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*       {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar     {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+}
+.navbar ul     {
+    display: flex;
+    list-style: none;
+    margin: 25px;
+}
+.navbar ul li   {
+    font-family: poppins;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a  {
+    text-decoration: none;
+    color: brown;
+    padding: 10px 30px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover {
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: 0 0 15px antiquewhite;
+}
+
+/* Home Section */
