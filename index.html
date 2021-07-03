@@ -7,15 +7,16 @@
     <title>Document</title>
     <link rel="shortcut icon" href="favicon1.jpg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
 
@@ -27,5 +28,62 @@
             </button>
         </div>
     </section>
+
+    <section id="about">
+        <h1 class="heading">About Me</h1>
+        <div id="pic">
+            <img src="profile2.JPG" alt="">
+            <div id="intro">
+                <h2>Arunabh Newar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi expedita debitis esse impedit dolor. Dolor at dolore ratione quidem ipsam debitis suscipit repellat, ullam fugiat sed reprehenderit laboriosam. Architecto, quam.</p>
+            </div>
+        </div>    
+    </section>
+
+    <section id="portfolio">
+        <h1 class="heading">Portfolio</h1>
+        <div class="gallery">
+            <img src="screenplay.jpg" alt="">
+            <img src="director.jpg" alt="">
+            <img src="camera.jpg" alt="">
+            <img src="tracker2.jpg" alt="">
+            <img src="coding2.jpg" alt="">
+            <img src="work1.jpg" alt="">
+            <img src="creative1.jpeg" alt="">
+            <img src="creative2.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="heading">Services</h1>
+        <div class="row">
+            <div class="box">
+                <img src="screenplay1.jpg" alt="">
+                <h1 class="heading">Screenplay Writing</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla cupiditate corrupti similique, ullam labore facere maxime, maiores sed veritatis dicta sunt aliquid incidunt omnis ab aut impedit quaerat at.</p>    
+            </div>
+            <div class="box">
+                <img src="webdesign.jpg" alt="">
+                <h1 class="heading">Website <br> Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla cupiditate corrupti similique, ullam labore facere maxime, maiores sed veritatis dicta sunt aliquid incidunt omnis ab aut impedit quaerat at.</p>
+            </div>
+            <div class="box">
+                <img src="filmdirector.jpg" alt="">
+                <h1 class="heading">Direction</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla cupiditate corrupti similique, ullam labore facere maxime, maiores sed veritatis dicta sunt aliquid incidunt omnis ab aut impedit quaerat at.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="heading">Contact Me</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Give Your Feedback"></textarea>
+            <input type="submit" value="SEND" id="send">
+
+        </form>
+    </section> 
 </body>
 </html>
