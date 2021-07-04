@@ -98,6 +98,9 @@ html    {
     padding: 25px;
     margin-bottom: 50px;
 }
+.para   {
+       font-size: 1.2rem; 
+}
 #pic        {
     display: flex;
 }
