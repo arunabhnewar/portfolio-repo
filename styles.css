@@ -80,6 +80,7 @@ html    {
     color: white;
     outline: none;
     transition: .7s ease;
+    text-decoration: none;
 }
 .btn:hover    {
     cursor: pointer;
@@ -213,4 +214,11 @@ html    {
 #send:hover     {
     cursor: pointer;
     box-shadow: 0 0 20px rgb(51, 12, 1);
+}
+/* Footer */
+.copy       {
+    color: rgb(133, 23, 4);
+    text-align: center;
+    font-weight: 700;
+    background-color: rgb(69, 243, 185);
 }
