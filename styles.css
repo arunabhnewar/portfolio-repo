@@ -35,7 +35,8 @@ html    {
 .navbar ul li a:hover {
     background-color: antiquewhite;
     color: black;
-    box-shadow: 0 0 15px antiquewhite;
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
 }
 
 /* Home Section */
