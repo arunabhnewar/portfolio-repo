@@ -89,6 +89,7 @@ html    {
     color: black;
     box-shadow: 0 0 5px aquamarine, 0 0 10px aquamarine 0 0 15px aquamarine;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 /* About Section */
