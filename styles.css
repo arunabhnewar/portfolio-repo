@@ -12,7 +12,7 @@ html    {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(69, 243, 185);
     position: sticky;
     top: 0;
 }
@@ -23,7 +23,7 @@ html    {
 }
 .navbar ul li   {
     font-family: poppins;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .navbar ul li a  {
@@ -85,7 +85,7 @@ html    {
 }
 .btn:hover    {
     cursor: pointer;
-    background-color: aquamarine;
+    background-color: rgb(69, 243, 185);
     color: black;
     box-shadow: 0 0 5px aquamarine, 0 0 10px aquamarine 0 0 15px aquamarine;
     font-weight: bold;
@@ -124,7 +124,7 @@ html    {
 #portfolio      {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    background-color: rgb(69, 243, 185);
     align-items: center;
     padding: 21px;
 }
@@ -171,6 +171,7 @@ html    {
     color: rgb(133, 23, 4);
     border: none;
     box-shadow: 0 0 20px rgb(8, 8, 153);
+    cursor:pointer;
 }
 .box img        {
     width: 80px;
@@ -215,15 +216,20 @@ html    {
     margin: 35px;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 #send:hover     {
-    cursor: pointer;
     box-shadow: 0 0 20px rgb(51, 12, 1);
 }
 /* Footer */
-.copy       {
+.foot {
+    background-color: rgb(69, 243, 185);
     color: rgb(133, 23, 4);
     text-align: center;
-    font-weight: 700;
-    background-color: rgb(69, 243, 185);
+    font-size: 18px;
+}
+.fab    {
+    font-size: 20px;
+    padding: 4px;
+    color: rgb(133, 23, 4);
 }
