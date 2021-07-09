@@ -23,7 +23,7 @@ html    {
 }
 .navbar ul li   {
     font-family: poppins;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 .navbar ul li a  {
@@ -229,7 +229,7 @@ html    {
     font-size: 18px;
 }
 .fab    {
-    font-size: 20px;
+    font-size: 25px;
     padding: 4px;
-    color: rgb(133, 23, 4);
+    
 }
